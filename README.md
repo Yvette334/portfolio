@@ -1,42 +1,52 @@
 # Personal Portfolio Website
 
-## Description
+A responsive portfolio website built with HTML5 and Tailwind CSS to showcase my skills and projects.
 
-This is a personal portfolio website for Yvette Muhoracyeye, designed to showcase my background, skills, projects, and contact information. The site is built using HTML5 for structure and Tailwind CSS for styling, ensuring a modern, professional, and responsive layout.
+## Project Overview
+
+This portfolio website serves as a professional showcase of my frontend development skills. It features a modern, responsive design that works seamlessly across all devices.
 
 ## Pages Included
 
-- **Home (index.html):** Landing page with hero section, introduction, and navigation.
-- **About Me (about.html):** Background, education, skills, and career goals.
-- **Projects (project.html):** Displays sample projects with titles, descriptions, and images.
-- **Contact (contact.html):** Contact form and information for reaching out.
-
-## Screenshots
-
-> Add screenshots of your homepage and other pages here.
-
-## Deployment Link
-
-> [Live Portfolio](YOUR_DEPLOYMENT_LINK_HERE)
-
-## How to Run Locally
-
-1. Clone the repository:
-   ```
-   https://github.com/Yvette334/portfolio.git
-   ```
-2. Open the folder in VS Code or your preferred editor.
-3. Open `index.html` in your browser.
+- **Home** (`index.html`) - Landing page with hero section and introduction
+- **About** (`about.html`) - Personal background, skills, education, and career goals
+- **Projects** (`projects.html`) - Showcase of 3 sample projects with descriptions
+- **Contact** (`contact.html`) - Contact form and information
 
 ## Features
 
-- Responsive design for desktop, tablet, and mobile.
-- Consistent navigation across all pages.
-- Tailwind CSS for fast and modern styling.
-- Contact form (dummy, does not send emails).
-- Project section with sample projects.
+- Fully responsive design (mobile-first approach)
+- Modern UI with Tailwind CSS
+- Consistent navigation across all pages
+- Professional layout and styling
+- Accessible and user-friendly interface
 
-## Commit History
+## Technologies Used
 
-- Clear, professional commit messages.
-- Logical timeline showing project development.
+- HTML5
+- Tailwind CSS (via CDN)
+- Responsive design principles
+
+## How to Run Locally
+
+1. Clone or download the project files
+2. Open `index.html` in your web browser
+3. Navigate between pages using the navigation menu
+
+## Deployment
+
+This website can be deployed on any static hosting service like:
+- GitHub Pages
+- Netlify
+- Vercel
+
+## Future Enhancements
+
+- Add dark mode toggle
+- Implement JavaScript interactivity
+- Add more project details and live demos
+- Include blog section
+
+## Screenshots
+
+[Add screenshots of your website here]
