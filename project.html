@@ -3,24 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project Me</title>
-    <script src="http://cdn.tailwindcss.com"></script>
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <bodyclass="bg-gray-50">
-    <nav class="">
-      <div class="flex justify-between mt-auto bg-blue-500 text-white py-6 px-8">
-        <a href="index.html" class="text-xl font-bold">Yvette Muhoracyeye</a>
-        <div class="space-x-4">
-          <a href="index.html" class="hover:underline">Home</a>
-          <a href="about.html" class="hover:underline">About</a>
-          <a href="project.html" class="hover:underline">Project</a>
-          <a href="contact.html" class="hover:underline">Contact</a>
+  <body class="bg-gray-50 flex flex-col">
+    <nav class="bg-blue-600 text-white">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center py-4 px-8"
+      >
+        <a href="index.html" class="text-2xl font-bold mb-4 md:mb-0"
+          >Yvette Muhoracyeye</a
+        >
+        <div class="flex space-x-6">
+          <a href="index.html" class="hover:underline font-medium">Home</a>
+          <a href="about.html" class="hover:underline font-medium">About</a>
+          <a href="project.html" class="hover:underline font-medium">Project</a>
+          <a href="contact.html" class="hover:underline font-medium">Contact</a>
         </div>
       </div>
     </nav>
-    <footer class="text-center py-8 mt-auto bg-blue-500">
-      <div>
-        <p>&copy 2025 Yvette Muhoracyeye. All right</p>
+    <main class="flex-1 py-12">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <h1 class="text-4xl font-bold text-center mb-12">Projects</h1>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-8">
+            <h2 class="text-2xl font-semibold mb-4">Portfolio Website</h2>
+            <p class="text-gray-700">
+              A personal portfolio website built with HTML, CSS, and Tailwind
+              CSS to showcase my skills and projects.
+            </p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-8">
+            <h2 class="text-2xl font-semibold mb-4">Simple Calculator</h2>
+            <p class="text-gray-700">
+              A basic calculator app created using Python to practice
+              problem-solving and logic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-blue-600 text-white py-8 mt-auto">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Yvette Muhoracyeye. All rights reserved.</p>
       </div>
     </footer>
   </body>
