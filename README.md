@@ -49,4 +49,5 @@ This website can be deployed on any static hosting service like:
 
 ## Screenshots
 
-[Add screenshots of your website here]
+![Image Alt](https://github.com/Yvette334/portfolio/blob/9dcebc6a4bf9e52eb90f1dbd30d6700e44fc9ebf/images/Screenshot%202025-09-29%20191250.png)
+![Image Alt](https://github.com/Yvette334/portfolio/blob/9dcebc6a4bf9e52eb90f1dbd30d6700e44fc9ebf/images/Screenshot%202025-09-29%20191603.png)
