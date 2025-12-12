@@ -1,53 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PORTFOLIO WEBSITE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Yvette Muhoracyeye — Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-50">
-    <main>
-    <nav class="">
-      <div class="flex justify-between mt-auto bg-blue-600 text-white py-6 px-8">
-        <a href="index.html" class="text-xl font-bold">Yvette Muhoracyeye</a>
-        <div class="space-x-4">
-          <a href="index.html" class="hover:underline font-medium">Home</a>
-          <a href="about.html" class="hover:underline font-medium">About</a>
-          <a href="project.html" class="hover:underline font-medium">Project</a>
-          <a href="contact.html" class="hover:underline font-medium">Contact</a>
+  <body class="bg-gray-50 min-h-screen flex flex-col">
+    <nav class="bg-blue-600 text-white sticky top-0 z-20">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-center py-4 px-6 md:px-8">
+        <a href="#hero" class="text-2xl font-bold mb-3 md:mb-0">Yvette Muhoracyeye</a>
+        <div class="flex flex-wrap gap-4">
+          <a href="#hero" class="hover:underline font-medium">Home</a>
+          <a href="#about" class="hover:underline font-medium">About</a>
+          <a href="#skills" class="hover:underline font-medium">Skills</a>
+          <a href="#projects" class="hover:underline font-medium">Projects</a>
+          <a href="#contact" class="hover:underline font-medium">Contact</a>
         </div>
       </div>
     </nav>
-    <section class="py-10 bg-gray-300">
-      <div class="container mx-auto text-center py-20 ">
-        <h1 class="text-4xl font-bold mt-4">WELCOME</h1>
 
-        <p class="text-xl mt-2 py-4">
-          Hello,I'm Yvette Muhoracyeye frontend web developer passionate about creating user-friendly website
-        </p>
+    <main class="flex-1">
+      <!-- Hero -->
+      <section id="hero" class="bg-gradient-to-r from-blue-50 to-white py-20">
+        <div class="container mx-auto px-6 max-w-5xl text-center">
+          <h1 class="text-5xl md:text-6xl font-extrabold text-blue-700 mb-4">Hi, I'm Yvette</h1>
+          <p class="text-lg md:text-xl text-gray-700 mb-6">
+            Frontend developer building accessible, responsive interfaces with semantic HTML and Tailwind CSS. Currently expanding skills in JavaScript, React, and deployment.
+          </p>
+          <div class="flex justify-center gap-4">
+            <a href="#projects" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">See Projects</a>
+            <a href="#contact" class="inline-block border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="container mx-auto px-6 max-w-5xl space-y-12 py-12">
+        <!-- About -->
+        <section id="about" class="bg-white rounded-lg shadow-md p-8">
+          <h2 class="text-3xl font-bold mb-4">About Me</h2>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            I'm Yvette — a frontend-focused developer. I prioritize semantic HTML, accessible UI, and responsive layouts. I build with Tailwind CSS and am progressing in JavaScript and React.
+          </p>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <h3 class="font-semibold mb-2">Education & Training</h3>
+              <ul class="text-gray-700 list-disc list-inside space-y-2">
+                <li>Advanced Frontend Course — HTML, CSS, Tailwind, JavaScript, React, Next.js</li>
+                <li>Data Structures & Algorithms practice</li>
+                <li>Hands-on assignments: Landing pages, calculators, task managers, React apps</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="font-semibold mb-2">Career Goals</h3>
+              <p class="text-gray-700">Short-term: build and deploy React projects; Long-term: work as a frontend developer focusing on accessibility and performance.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="bg-white rounded-lg shadow-md p-8">
+          <h2 class="text-3xl font-bold mb-6">Skills</h2>
+
+          <div class="grid gap-6 md:grid-cols-2">
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-medium">HTML5 & Semantic Markup</span>
+                  <span class="text-sm text-gray-500">Expert</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded h-2"><div class="bg-blue-600 h-2 rounded" style="width:95%"></div></div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-medium">CSS3 & Responsive Design</span>
+                  <span class="text-sm text-gray-500">Advanced</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded h-2"><div class="bg-blue-600 h-2 rounded" style="width:90%"></div></div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-medium">Tailwind CSS</span>
+                  <span class="text-sm text-gray-500">Advanced</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded h-2"><div class="bg-blue-600 h-2 rounded" style="width:88%"></div></div>
+              </div>
+            </div>
+
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-medium">JavaScript (ES6+)</span>
+                  <span class="text-sm text-gray-500">Learning</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded h-2"><div class="bg-blue-600 h-2 rounded" style="width:55%"></div></div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-medium">React.js</span>
+                  <span class="text-sm text-gray-500">Learning</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded h-2"><div class="bg-blue-600 h-2 rounded" style="width:45%"></div></div>
+              </div>
+
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-medium">Python</span>
+                  <span class="text-sm text-gray-500">Intermediate</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded h-2"><div class="bg-blue-600 h-2 rounded" style="width:70%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-sm text-gray-600 mt-4">
+            Other: Git & GitHub, problem solving, debugging, responsive layout techniques, basic testing concepts.
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="bg-white rounded-lg shadow-md p-8">
+          <div class="flex items-center justify-between mb-6">
+            <h2 class="text-3xl font-bold">Projects</h2>
+            <p class="text-sm text-gray-500">A showcase of projects completed during the course.</p>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            <!-- Project 1 -->
+            <article class="bg-gray-50 border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="./images/port.png" alt="Portfolio Website" class="w-full h-40 object-cover"/>
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+                <p class="text-gray-700 mb-3">A responsive portfolio built with HTML & Tailwind CSS. Focus: semantic markup, accessibility, and responsive design.</p>
+                <div class="text-sm text-gray-500">Skills: HTML, Tailwind, Accessibility</div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="bg-gray-50 border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="./images/cal.png" alt="Calculator" class="w-full h-40 object-cover"/>
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">Simple Calculator</h3>
+                <p class="text-gray-700 mb-3">Practice app showing program logic and UI. Useful for learning DOM and JS event handling.</p>
+                <div class="text-sm text-gray-500">Skills: JS basics, DOM</div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="bg-gray-50 border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="./images/moto.png" alt="Motor Link" class="w-full h-40 object-cover"/>
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">Motor Link (Concept)</h3>
+                <p class="text-gray-700 mb-3">Marketplace concept to help users find motorcycle listings and fair prices — UI design and research focused.</p>
+                <div class="text-sm text-gray-500">Skills: UI/UX, research</div>
+              </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="bg-gray-50 border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+              <img src="./images/reci.png" alt="Submission Reminder App" class="w-full h-40 object-cover"/>
+              <div class="p-5">
+                <h3 class="text-xl font-semibold mb-2">Submission Reminder App</h3>
+                <p class="text-gray-700 mb-3">Small app to track submissions and reminders. Demonstrates API usage and UI design for productivity tools.</p>
+                <div class="text-sm text-gray-500">Skills: APIs, JS</div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="bg-white rounded-lg shadow-md p-8">
+          <h2 class="text-3xl font-bold mb-4">Contact</h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <form action="#" method="post" class="space-y-4">
+                <div>
+                  <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                  <input id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg" />
+                </div>
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+                  <input id="email" name="email" type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg" />
+                </div>
+                <div>
+                  <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                  <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Send Message</button>
+              </form>
+            </div>
+
+            <aside class="space-y-4">
+              <div>
+                <h3 class="font-semibold">Contact Information</h3>
+                <p class="text-gray-700">Email: <a class="text-blue-600" href="mailto:yvettemuhoracyeye@gmail.com">yvettemuhoracyeye@gmail.com</a></p>
+                <p class="text-gray-700">Phone: <span class="text-blue-600">+250 788 123 456</span></p>
+                <p class="text-gray-700">Location: Kigali, Rwanda</p>
+              </div>
+
+              <div>
+                <h3 class="font-semibold">Links</h3>
+                <div class="flex gap-3 mt-2">
+                  <a href="#" class="px-3 py-2 border rounded text-sm text-blue-600 hover:bg-blue-50">GitHub</a>
+                  <a href="#" class="px-3 py-2 border rounded text-sm text-blue-600 hover:bg-blue-50">LinkedIn</a>
+                  <a href="#" class="px-3 py-2 border rounded text-sm text-blue-600 hover:bg-blue-50">Twitter</a>
+                </div>
+              </div>
+
+              <div>
+                <h3 class="font-semibold">Quick Notes for Assessors</h3>
+                <ul class="text-sm text-gray-600 list-disc list-inside mt-2">
+                  <li>Demonstrates course topics: HTML, Tailwind, JS fundamentals, React basics, DSA practice.</li>
+                  <li>All pages consolidated to a single-scroll portfolio to present everything in one view.</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </section>
       </div>
-    </section>
-    <section class="py-6">
-      <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold py-4">About Me</h2>
-        <p>
-          Hi, I'm studying about Frontend web development and improve my
-          problem-solving,
-          <p> focusing on creating user-friendly and accessible
-          digital solutions.</p>
-        </p>
-        <a
-          href="about.html"
-          class="mt-6 inline-block bg-blue-600 text-white px-6 py-4 rounded"
-          >Learn more
-        </a>
-      </div>
-    </section>
     </main>
-    <footer class="text-center py-8 mt-auto bg-blue-600 text-white">
-      <div>
-        <p>&copy 2025 Yvette Muhoracyeye. All right</p>
+
+    <footer class="bg-blue-600 text-white py-6 mt-auto">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Yvette Muhoracyeye. All rights reserved.</p>
       </div>
     </footer>
   </body>
